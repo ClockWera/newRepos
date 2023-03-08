@@ -1,0 +1,500 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import thebox from './assets/TheBox.svg'
+import './App.css'
+
+function App() {
+  return (
+    <header className="navbar">
+      <a href=''>Vectors</a>
+      <a>
+        <img src={TheBox}>
+      </a>
+      <ul>
+        <a href="" className=''>home</a>
+        <a href="">about us</a>
+        <a href="">projects</a>
+        <a href="">Services</a>
+        <a href="">Contact us</a>
+      </ul>
+    </header>
+  )
+}
+
+export default App
+
+
+
+
+
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <div className="App">
+      <div>
+        <a href="https://vitejs.dev" target="_blank">
+          <img src="/vite.svg" className="logo" alt="Vite logo" />
+        </a>
+        <a href="https://reactjs.org" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
+      <h1>Vite + React</h1>
+      <div className="card">
+        <button onClick={() => setCount((count) => count + 1)}>
+          count is {count}
+        </button>
+        <p>
+          Edit <code>src/App.tsx</code> and save to test HMR
+        </p>
+      </div>
+      <p className="read-the-docs">
+        Click on the Vite and React logos to learn more
+      </p>
+    </div>
+  )
+}
+
+export default App
+
+
+
+
+
+                <ul className='FeaturePJ'>
+                    <div className='block'>asdasd</div>
+                    <button className='LeftButton'>
+                        <b className='leftText'>Back</b>
+                    </button>
+                    <button className='RightButton'>
+                        <b className='rightText'>Next</b>
+                    </button>
+                </ul>
+
+
+
+                            <div className='FeatureJP'>
+                <div className='block'>
+                    <b className='Uppertext'>Feature Projects</b>
+                    <b className='Downtext'>The National University of Architecture</b>
+                </div>
+
+                <div className='LeftButton'>
+                    <b className='leftText'>Back</b>
+                </div>
+
+                <div className='RightButton'>
+                    <b className='rightText'>Next</b>
+                </div>
+            </div>
+
+            <table className='FeatureJP'>
+                <tr className='block'>
+                    <b className='Uppertext'>Feature Projects</b>
+                    <b className='Downtext'>The National University of Architecture</b>
+                </tr>
+                <td className='LeftButton'>
+                    <b className='leftText'>Back</b>
+                </td>
+                <td className='RightButton'>
+                    <b className='rightText'>Next</b>
+                </td>
+            </table>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title></title>
+</head>
+<header>
+  <script src="./src/Upper.tsx"></script>
+</header>
+<body>
+
+  <div id="root"></div>
+  <script type="module" src="./src/main.tsx"></script>
+</body>
+
+</html>
+
+import Symbls from './assets/Random Symboles 3.png'
+import thebox from './assets/TheBox.svg'
+import './Upper.css'
+import './navigation.css'
+
+function Upper() {
+  return (
+    <header className="navbar">
+      <a>
+        <img src={Symbls} className="Symbls" alt="Random Symbls" />
+      </a>
+      <a>
+        <img src={thebox} className="TheBox" alt="TheBox" />
+      </a>
+      <nav className="NavItems">
+        <a href="" className="Home">Home</a>
+        <a href="" className="About">About us</a>
+        <a href="" className="Projects">Projects</a>
+        <a href="" className="Services">Services</a>
+        <a href="" className="Contacts">Contact us</a>
+      </nav>
+    </header>
+  )
+}
+
+export default Upper
+
+
+.navbar {
+  height: 80px;
+  background: #FFFFFF;
+}
+
+.TheBox {
+  width: 111px;
+  height: 35px;
+}
+
+.Symbls {
+  width: 38px;
+  height: 47.5px;
+}
+
+.NavItems {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 50px;
+
+  width: 577px;
+  height: 21px;
+}
+
+
+.Home {
+    width: 52px;
+    height: 21px;
+  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: #14171F;
+  }
+  
+  .About {
+    width: 81px;
+    height: 21px;
+  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: #14171F;
+  }
+  
+  .Projects {
+    width: 72px;
+    height: 21px;
+  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: #14171F;
+  }
+  
+  .Services {
+    width: 74px;
+    height: 21px;
+  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: #14171F;
+  }
+  
+  .Contacts {
+    width: 98px;
+    height: 21px;
+  
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+  
+    color: #F9995D;
+  }
+
+
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import BodyTS from './BodyTS'
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <BodyTS />
+  </React.StrictMode>,
+)
+
+
+
+:root {
+  font-family: 'Work Sans', sans-serif;
+
+
+  position: relative;
+  width: 1440px;
+  height: 5912px;
+  overflow-y: scroll;
+  background: #FFFFFF;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import Upper from './Upper'
+
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <Upper />
+  </React.StrictMode>,
+)
+
+
+
+
+import './body.css'
+import backbutton from './assets/ArrowLeft.svg'
+import nextbutton from './assets/ArrowRight.svg'
+function BodyTS() {
+    return (
+        <body>
+            <article className='TextOnbg'>Building things is our mission.</article>
+
+            <div className='FeaturePJ'>
+                <div className='blueblock'>
+                    <p className='Uppertext'>Feature Projects</p>
+                    <p className='Downtext'>The National University of Architecture</p>
+                </div>
+                <div>
+                <button className='LeftButton'>
+                    <img src={backbutton} className='arrowLeft' alt="backbutton" />
+                    <p className='leftText'>Back</p>
+                </button>
+                <button className='RightButton'>
+                    <p className='rightText'>Next</p>
+                    <img src={nextbutton} className='arrowRight' alt="nextbutton" />
+                </button>
+                </div>
+            </div>
+
+        </body>
+    )
+}
+export default BodyTS
+
+
+.bg {
+    height: 646px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.jpg);
+}
+
+.TextOnbg {
+    width: 556px;
+    height: 168px;
+
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84px;
+
+    color: #292E3D;
+}
+
+.FeaturePJ {
+    width: 416px;
+    height: 190px;
+}
+
+.blueblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 10px;
+    gap: 20px;
+
+    width: 416px;
+    height: 150px;
+
+    background: #3559C7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px 2px 0px 0px;
+}
+
+.LeftButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 20px;
+    gap: 10px;
+
+    width: 208px;
+    height: 40px;
+
+    background: #292E3D;
+}
+
+.RightButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 20px;
+    gap: 10px;
+
+    width: 207px;
+    height: 40px;
+
+    background: #292E3D;
+}
+
+.leftvector {
+    width: 26px;
+    height: 17px;
+}
+
+.Uppertext {
+    width: 163px;
+    height: 23px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.Downtext {
+    width: 312px;
+    height: 61px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.leftText {
+    width: 43px;
+    height: 21px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.rightText {
+    width: 41px;
+    height: 21px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.arrowLeft {
+    width: 26px;
+    height: 17px;
+}
+
+.arrowRight {
+    width: 26px;
+    height: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
