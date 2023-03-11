@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
+import BodyTS from './BodyTS'
+import HeaderTS from './HeaderTS'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <App />
+    <HeaderTS />
+    <BodyTS />
   </React.StrictMode>,
 )
