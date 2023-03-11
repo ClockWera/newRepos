@@ -1,1 +1,0 @@
-import "./FooterTS.css"
