@@ -1,9 +1,9 @@
 import Symbls from './assets/Random Symboles 3.png'
 import thebox from './assets/TheBox.svg'
-import "./HeaderTS.css"
+import "./Header.css"
 import "./Navigation.css"
 
-function HeaderTS() {
+export const Header = () => {
   return (
     <div className='header'>
       <div className='header__logo'>
@@ -24,5 +24,3 @@ function HeaderTS() {
     </div>
   )
 }
-
-export default HeaderTS

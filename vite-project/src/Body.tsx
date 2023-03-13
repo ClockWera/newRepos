@@ -1,8 +1,8 @@
-import "./BodyTS.css"
+import "./Body.css"
 import backbutton from './assets/ArrowLeft.svg'
 import nextbutton from './assets/ArrowRight.svg'
 import pictureForBG from './assets/BGpic.png'
-function BodyTS() {
+export const Body = () => {
     return (
         <div className="body__all">
             <div className="first__page">
@@ -36,4 +36,3 @@ function BodyTS() {
         </div>
     )
 }
-export default BodyTS

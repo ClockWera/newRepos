@@ -1,5 +1,5 @@
 .header {
-  max-width: 1440px;
+  width: 100%;
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -37,6 +37,10 @@
   gap: 50px;
 }
 
+.header__menu li {
+  flex-basis: calc(100% / 5);
+}
+
 
 @media screen and (max-width: 1000px) {
   .header__menu {
@@ -71,5 +75,48 @@
     flex-wrap: wrap;
     row-gap: 20px;
     flex: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu li {
+    flex-basis: calc(100% / 3);
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__menu li {
+    flex-basis: 100%;
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    flex-basis: 50%;
+  }
+  .header__button {
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__logo {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .header__button {
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    gap: 10px;
   }
 }

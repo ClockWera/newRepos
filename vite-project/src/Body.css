@@ -13,12 +13,7 @@
 
 .back__Ground__firstPage {
     display: flex;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(.jpg);
-}
-
-.bg_fp {
-    display: flex;
-    gap: 0 10px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%);
 }
 
 .slogan {
@@ -132,7 +127,7 @@
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
     .first__page {
       flex-wrap: wrap;
       row-gap: 20px;
