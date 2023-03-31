@@ -1,3 +1,4 @@
+<<<<<<< HEAD:vite-project/src/HeaderTS.css
 .header {
   width: 100%;
   display: flex;
@@ -119,4 +120,80 @@
   .header {
     gap: 10px;
   }
+=======
+.header {
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header__logo {
+  display: flex;
+  gap: 0 14px;
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+}
+
+.header__BoxLogo {
+  display: flex;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .header__menu {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    flex: 1;
+  }
+
+  .Home {
+    flex: 0 1 calc(100% / 2 - 12px);
+  }
+
+  .About{
+    flex: 0 1 calc(100% / 2 - 12px);
+  }
+
+  .Projects{
+    flex: 0 1 calc(100% / 2 - 12px);
+  }
+
+  .Services {
+    flex: 0 1 calc(100% / 2 - 12px);
+  }
+
+  .Contacts {
+    flex: 0 1 calc(100% / 2 - 12px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    flex: 1;
+  }
+>>>>>>> 5dafb63b0f827df0435e9881084f2f65bc3d6fee:src/HeaderTS.css
 }
