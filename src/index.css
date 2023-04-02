@@ -1,4 +1,3 @@
-<<<<<<< HEAD:vite-project/src/index.css
 
 body {
     font-family: 'Work Sans', sans-serif;
@@ -7,18 +6,4 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-=======
-:root {
-    height: 5912px;
-    overflow-y: scroll;
-}
-
-body {
-    font-family: 'Work Sans', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
->>>>>>> 5dafb63b0f827df0435e9881084f2f65bc3d6fee:src/index.css
 }
