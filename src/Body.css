@@ -1,25 +1,20 @@
-.body__all {
-    display: flex;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.first__page {
-    display: flex;
-    height: 646px;
-    justify-content: space-between;
-}
-
 .back__Ground__firstPage {
     display: flex;
+    height: 646px;
+    margin: 0 auto;
+    
     justify-content: space-between;
+    background-image: url(../BackGroundPic.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .slogan {
     display: grid;
     align-items: center;
     row-gap: 20px;
+    padding-left: 112px;
 
     color: #292E3D;
 
@@ -35,7 +30,7 @@
     align-content: flex-end;
 }
 
-.text__FP {
+.text {
     display: grid;
     justify-items: center;
 
@@ -47,7 +42,7 @@
     border-radius: 2px 2px 0px 0px;
 }
 
-.idk {
+.text__FP {
     display: flex;
     width: 163px;
     height: 23px;
@@ -58,7 +53,7 @@
     color: #FFFFFF;
 }
 
-.idk__2 {
+.text__TNUoA {
     display: flex;
     width: 312px;
     height: 61px;
@@ -69,7 +64,7 @@
     color: #FFFFFF;
 }
 
-.arrows__andfml {
+.arrows {
     display: grid;
     column-width: 416px;
     list-style: none;

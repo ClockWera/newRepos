@@ -1,0 +1,39 @@
+.reputation__page {
+    display: grid;
+}
+
+.rep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.three__columns {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, max-content);
+    margin-bottom: 84px;
+    grid-column-gap: 78px;
+}
+
+.Services {
+    display: grid;
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+    align-items: flex-start;
+}
+
+
+.Teams {
+    display: grid;
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+}
+
+.Designs {
+    display: grid;
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+}

@@ -1,0 +1,56 @@
+.All__block {
+    display: grid;
+    background: #F6F8F7;
+    padding-bottom: 76px;
+}
+
+.top__text {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #292E3D;
+}
+
+.block__of__box {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    list-style: none;
+    justify-content: center;
+    grid-column-gap: 98px;
+    grid-row-gap: 48px;
+}
+
+.block__of__box li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 271px;
+    height: 181px;
+}
+
+.Construction__,
+.Consultation__,
+.Architecture__ {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+    border-radius: 4px;
+}
+
+
+
+.Renovation__,
+.Repair__,
+.Electric__ {
+    background: #2947A9;
+    box-shadow: 0px 0px 37px -2px rgba(17, 24, 39, 0.05);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
