@@ -1,6 +1,8 @@
 .AboutUs__page {
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding-bottom: 202px;
 }
 
 .bg__man {
@@ -9,6 +11,9 @@
 
     box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.1), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
     border-radius: 2px;
+
+    background: url(./assets/man.svg);
+    background-position: top;
 }
 
 .aboutus__text {
@@ -18,35 +23,31 @@
 }
 
 .large__text {
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
 
-    margin-left: 40px;
+    margin-inline: 40px 289px;
 
     color: #FFFFFF;
 }
 
 .common__text {
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
 
-    margin-top: 37px;
-    margin-left: 40px;
-    margin-bottom: 74px;
+    margin-inline: 40px 60px;
 
     color: #FFFFFF;
 }
 
 .button__style {
     display: inline-flex;
-    margin-left: 40px;
-    margin-bottom: 60px;
+
+    margin-inline: 40px 229px;
+    margin-block: 74px 60px;
+
     width: 219px;
     height: 53px;
 
