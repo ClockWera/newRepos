@@ -17,6 +17,11 @@
 }
 
 .aboutus__text {
+    position: relative;
+    z-index: 1;
+    
+    right:calc(902px - 726px);
+
     background: #2947A9;
     height: 523px;
     width: 488px;
