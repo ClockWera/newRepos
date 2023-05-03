@@ -1,5 +1,8 @@
 .reputation__page {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .rep {
@@ -10,6 +13,21 @@
     margin-bottom: 50px;
 }
 
+.under__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #858EAD;
+}
+
+.Capital {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
 .three__columns {
     display: grid;
     justify-content: center;
@@ -18,22 +36,26 @@
     grid-column-gap: 78px;
 }
 
-.Services {
-    display: grid;
-    border: 1.4px solid #E0E3EB;
-    border-radius: 4px;
-    align-items: flex-start;
-}
-
-
+.three__columns>.Designs,
+.Services,
 .Teams {
-    display: grid;
-    border: 1.4px solid #E0E3EB;
-    border-radius: 4px;
-}
+    box-sizing: border-box;
 
-.Designs {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start;
+
+    padding: 20px 20px 40px;
+
+    list-style: none;
+
+    width: 292px;
+    height: 197px;
+
     border: 1.4px solid #E0E3EB;
     border-radius: 4px;
+
+    background: #FFFFFF;
 }
