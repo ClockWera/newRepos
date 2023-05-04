@@ -1,0 +1,60 @@
+.reputation__page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.rep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.under__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #858EAD;
+}
+
+.Capital {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.three__columns {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, max-content);
+    margin-bottom: 84px;
+    grid-column-gap: 78px;
+}
+
+.three__columns>.Designs,
+.Services,
+.Teams {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: flex-start;
+
+    padding: 20px 20px;
+
+    list-style: none;
+
+    width: 292px;
+
+    border: 1.4px solid #E0E3EB;
+    border-radius: 4px;
+
+    background: #FFFFFF;
+}

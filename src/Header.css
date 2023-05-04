@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: grid;
+  gap: 0 14px;
+  grid-template-columns: repeat(2, max-content);
+}
+
+.header__button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+}
+
+.header__BoxLogo {
+  display: flex;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu ul {
+  display: grid;
+  list-style: none;
+  gap: 50px;
+
+  grid-template-columns: repeat(5, max-content);
+}
+
+.header__menu li {
+  flex-basis: calc(100% / 5);
+}
+
+.nav__list {
+  display: none;
+}
