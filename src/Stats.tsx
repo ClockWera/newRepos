@@ -15,7 +15,7 @@ export const Stats = () => {
               <span>84</span>
               <img
                 className="happy__clients"
-                src="./satsIcons/Happy_clients.svg"
+                src="./satsIcons/happy_clients.svg"
                 alt="happy_clients icon"
               />
             </div>
@@ -31,13 +31,13 @@ export const Stats = () => {
           <li className="cup">
             <img src="./satsIcons/cup.svg" alt="cup__icon" />
             <span>37</span>
-            <img src="./satsIcons/Awards_win.svg" alt="awards_win icon" />
+            <img src="./satsIcons/awards_win.svg" alt="awards_win icon" />
           </li>
           <li className="scheme">
             <img src="./satsIcons/landscape.svg" alt="landscape__icon" />
             <span>30</span>
             <img
-              src="./satsIcons/Years_in_business.svg"
+              src="./satsIcons/years_in_business.svg"
               alt="years_in_business icon"
             />
           </li>
