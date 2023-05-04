@@ -13,29 +13,31 @@ import years_in_business from './assets/satsIcons/Years_in_business.svg'
 export const Stats = () => {
     return (
         <div className='stats__page'>
-            <div className='block__of__stats'>
-                <ul>
+            <div className='block__of__ul'>
+                <ul className='block__of__stats'>
+                    <li className='paper'>
+                        <div className='paper__block'>
+                            <span>123</span>
+                            <img src={proj_completed} alt="proj_completed icon" />
+                        </div>
+                    </li>
                     <li className='handshake'>
-                        <div>
-                            <img className="hands__icon" src={handshake} alt="handshake__icon" />
+                        <div className='happy__block'>
                             <span>84</span>
                             <img className="happy__clients" src={happy_clients} alt="happy_clients icon" />
                         </div>
                     </li>
-                    <li className='paper'>
-                        <img src={paper} alt="paper__icon" />
-                        <span>123</span>
-                        <img src={proj_completed} alt="proj_completed icon" />
+                    <li className='scheme'>
+                        <div className='scheme__block'>
+                            <span>30</span>
+                            <img src={years_in_business} alt="years_in_business icon" />
+                        </div>
                     </li>
                     <li className='cup'>
-                        <img src={cup} alt="cup__icon" />
-                        <span>37</span>
-                        <img src={awards_win} alt="awards_win icon" />
-                    </li>
-                    <li className='scheme'>
-                        <img src={landscape} alt="landscape__icon" />
-                        <span>30</span>
-                        <img src={years_in_business} alt="years_in_business icon" />
+                        <div className='cup__block'>
+                            <span>37</span>
+                            <img src={awards_win} alt="awards_win icon" />
+                        </div>
                     </li>
                 </ul>
             </div>
