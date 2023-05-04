@@ -14,6 +14,9 @@ export const Header = () => {
           <img src="./TheBox.svg" alt="Надпись TheBox" />
         </button>
       </div>
+      <div className="nav__list">
+        dasds
+      </div>
       <div className="header__menu">
         <ul>
           <li className="item item-1">

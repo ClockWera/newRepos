@@ -39,3 +39,7 @@
 .header__menu li {
   flex-basis: calc(100% / 5);
 }
+
+.nav__list {
+  display: none;
+}

@@ -1,0 +1,65 @@
+.ads__page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+
+    background-image: url(/adsicons/picForAdsPage.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.quality_and_phone {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+p#item1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+}
+
+p#item2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+p#item2>span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+
+}
+
+.consultation__button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+
+    margin: 160px;
+}
+
+.consultation__button>button {
+    cursor: pointer;
+    border-style: none;
+    background: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
