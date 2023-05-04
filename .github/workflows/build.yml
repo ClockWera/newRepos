@@ -1,7 +1,6 @@
 name: BUILD MF
 on:
   push:
-    branches: [main]
 permissions:
   contents: write
 jobs:
